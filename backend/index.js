@@ -39,7 +39,7 @@ app.get('/', (req,res) => {
     res.send({ status: "success" })
 })
 
-const server = app.listen(process.env.PORT || 8080, () => {
+const server = app.listen(process.env.PORT || 8083, () => {
     const port = server.address().port
     console.log("App started at port: ", port);
 })
